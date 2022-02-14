@@ -27,5 +27,11 @@ EditorBuildSettings:
     path: Assets/scenes/Testing/benchmark_island-static.unity
     guid: bf8529d52d0dac843b94245ecf955d4a
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 22214ec5fe9cf9442827ed539dba3526,
+      type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: 3f119a19757f84dac85ee298b9dd65d3,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 836bb84bc133ec0418514e2a5b7e95fd,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 7774258923a4d684681d6c2f1daca2bf,
       type: 2}
