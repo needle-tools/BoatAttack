@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.png" />
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+
+  <title></title>
+  <meta name="description" content="">
+
+  <meta name="twitter:site" content="" /> 
+  <meta name="twitter:card" content="player" />
+  <meta name="twitter:player" content="" />
+  <meta name="twitter:player:width" content="480" />
+  <meta name="twitter:player:height" content="480" />
+  
+
+  <meta property="twitter:image" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+
+  <link rel="stylesheet" href="./src/styles/style.css">
+</head>
+
+<body>
+  <script>
+    // hack for simple-peer
+    window.global = window;
+    var parcelRequire;
+  </script>
+  <script type="module" src="./src/generated/gen.js"></script>
+  <script type="module" src="./src/main.ts"></script>
+
+  <div id="main">
+    <needle-tiny src="loadScene" alias="top">
+      <ar-overlay />
+    </needle-tiny> 
+  </div>
+</body>
+</html>
