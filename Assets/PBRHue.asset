@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7666edf940386f94c82177470d4318af, type: 3}
-  m_Name: CliffShader
+  m_Name: PBRHue
   m_EditorClassIdentifier: 
   enabled: 1
-  shader: {fileID: 4800000, guid: 7cd247c7cbda54323b0e395ea419af3d, type: 3}
+  shader: {fileID: 4800000, guid: e7d662204c5464355bc5f5911874653a, type: 3}
   subshaderIndex: 0
   passIndex: 0
   collectOpenSceneVariants: 1

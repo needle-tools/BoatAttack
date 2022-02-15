@@ -46,3 +46,6 @@ SerializedBuildInfo
 SwitchIL2CPP*
 Assets/ActualImages*
 UserSettings
+BoatAttack/assets
+BoatAttack/node_modules
+BoatAttack/src/generated

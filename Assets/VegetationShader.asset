@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7666edf940386f94c82177470d4318af, type: 3}
-  m_Name: CliffShader
+  m_Name: VegetationShader
   m_EditorClassIdentifier: 
   enabled: 1
-  shader: {fileID: 4800000, guid: 7cd247c7cbda54323b0e395ea419af3d, type: 3}
+  shader: {fileID: -6465566751694194690, guid: 4003ffa965d444d209561b52e55c61fc, type: 3}
   subshaderIndex: 0
   passIndex: 0
   collectOpenSceneVariants: 1
