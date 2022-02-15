@@ -45,3 +45,9 @@ Assets/BuildReports
 SerializedBuildInfo
 SwitchIL2CPP*
 Assets/ActualImages*
+*/node_modules
+myProject/dist
+myProject/assets
+myProject/include
+*/src/generated
+*/build.log

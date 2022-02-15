@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7666edf940386f94c82177470d4318af, type: 3}
+  m_Name: CliffShader
+  m_EditorClassIdentifier: 
+  enabled: 1
+  shader: {fileID: 4800000, guid: 7cd247c7cbda54323b0e395ea419af3d, type: 3}
+  subshaderIndex: 0
+  passIndex: 0
+  collectOpenSceneVariants: 0
+  outputDir: ../vite-sample/assets
+  mode: 1
+  postProcess: 1
+  exportShadersAsFiles: 0
+  openAfterExport: 1
+  exportOnSave: 0
+  KHR_techniques_webgl:
+    programs: []
+    shaders: []
+    techniques: []
