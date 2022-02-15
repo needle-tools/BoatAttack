@@ -24,12 +24,16 @@ namespace BoatAttack
         private void Awake()
         {
             consoleOpen.performed += ConsoleOnPerformed;
+            
+// very, very slow (50+ seconds of startup time) on Android/Quest. (Case 1403368)
+#if !UNITY_ANDROID
             var meths = GetMethodsWith<ConsoleCmd>();
             foreach (var meth in meths)
             {
                 methods.Add(meth.Name, meth);
                 methodParams.Add(meth.Name, meth.GetParameters());
             }
+#endif
         }
 
         private void OnEnable()
